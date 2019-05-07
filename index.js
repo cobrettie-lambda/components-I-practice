@@ -8,10 +8,13 @@ class Panel {
         this.panelButtonOpen = this.panel.querySelector('.panel-btn-open');
         this.panelButtonClose = this.panel.querySelector('.panel-btn-close');
         this.panelContent = this.panel.querySelector('.panel-content');
+        this.panelButtons.addEventListener('click', this.togglePanel());
 
     }
     // different scope block
-
+    togglePanel() {
+        console.log('I was clicked');
+    }
 }
 
 // STEP 1.) Select some DOM elements that we might use a lot
