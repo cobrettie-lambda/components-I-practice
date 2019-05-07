@@ -1,3 +1,6 @@
+/* INCORPORATE LESS */
+
+
 * {
     box-sizing: border-box;
 }
@@ -21,50 +24,48 @@ p {
     line-height: 1.25;
 }
 
-.home {
+.home {}
 
-    header {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding: 30px 0;
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
 
-        nav {
-            display: flex;
-            width: 70%;
-            justify-content: space-evenly;
-        }
-    }
+nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
 
-    .accordion {
 
-        .panel {
-            padding: 30px;
-            border: 1px solid gray;
+.accordion {}
 
-            .panel-bar {
-                display: flex;
-                justify-content: space-between;
+.panel {
+    padding: 30px;
+    border: 1px solid gray;
+}
 
-                .panel-buttons {
+.panel-bar {
+    display: flex;
+    justify-content: space-between;
+}
 
-                    button {
-                        cursor: pointer;
-                    }
+.panel-buttons {}
 
-                    .hide-btn {
-                        display: none;
-                    }
-                }
-            }
+button {
+    cursor: pointer;
+}
 
-            .panel-content {
-                display: none;
-            }
+.hide-btn {
+    display: none;
+}
 
-            .toggle-on {
-                display: block;
-            }
-        }
-    }
+.panel-content {
+    display: none;
+}
+
+.toggle-on {
+    display: block;
 }
